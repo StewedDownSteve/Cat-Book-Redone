@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(to bottom, #a6c8fc 0%, #e1e5ea 100%);
+  background-attachment: fixed;
+  font-family: 'Helvetica Neue', sans-serif;
+  padding-top: 70px; /* Added padding to account for the navbar height */
+}
+
+/* added for footer.ejs styling and flex */
+html, body {
+  height: 100%; /* Full height for the body and html */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.container {
+  flex: 1; /* Allow the main content to grow and fill space */
+}
+
+footer {
+  background-color: #343a40; /* Match footer background with navbar */
+  color: white; /* Set footer text color */
+  text-align: center; /* Center text */
+  padding: 10px 0; /* Add some padding */
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow under the navbar */
+  height: 60px; /* Specify height */
+}
+
+/* Card styling */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Slightly deeper shadow */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #007bff;
+}
+
+/* Buttons */
+.card-footer .btn {
+  transition: background-color 0.2s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
