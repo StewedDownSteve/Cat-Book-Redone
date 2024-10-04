@@ -22,10 +22,10 @@ Some of the core technologies and concepts used in this project:
 - **EJS templates**: To dynamically render the HTML with reusable components, such as a navbar and footer, for a consistent UI.
 - **JavaScript & Bootstrap**: To handle form interactions, validate inputs, and create responsive styling.
   
-Additionally, we customized the app with a few unique features:
+Additionally, I customized the app with a few unique features:
 
 - **Image preview on upload**: Users can see a preview of the uploaded cat photo before submitting the form, enhancing the UX.
-- **Custom styling**: We personalized the Bootstrap-based design, making sure the app has a polished and user-friendly interface, including a sticky footer that always stays at the bottom of the screen.
+- **Custom styling**: I personalized the Bootstrap-based design, making sure the app has a polished and user-friendly interface, including a sticky footer that always stays at the bottom of the screen.
 
 ## Optimizations
 
