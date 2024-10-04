@@ -1,12 +1,13 @@
 # CatBook Redone! 
 A simple web app to manage a database of cats, where users can upload cat profiles with pictures, edit cat information, and view a list of cats. The app demonstrates core full-stack development skills, including CRUD functionality, reusable components, and interactive JavaScript features.
 
-![CatBookdemo2](https://github.com/user-attachments/assets/ff05cc1a-b52d-462f-a09c-97859a55f6f6)
+![Catbook-app3](https://github.com/user-attachments/assets/764d2e4d-3fe0-405e-866e-c6b5daa55a84)
+
 
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Node.js, Express, MongoDB, EJS (Embedded JavaScript)
+**Tech used:** HTML, CSS, JavaScript, Node.js, Express, MongoDB, EJS (Embedded JavaScript), Bootstrap
 
 This project was built as a full-stack CRUD app with the following features:
 
